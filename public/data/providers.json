@@ -1,0 +1,1429 @@
+[
+  {
+    "itemsCountPerPage": 15,
+    "page": 1,
+    "providers": [
+      {
+        "addresses": [
+          {
+            "address": "10024",
+            "lat": "40.7868132866",
+            "lng": "-73.9764724499"
+          },
+          {
+            "address": "10549",
+            "lat": "41.2048054306",
+            "lng": "-73.7271310371"
+          }
+        ],
+        "age": "45",
+        "degree": "Masters in Social Work (LCSW)",
+        "distance": "0.6mi",
+        "gender": "female",
+        "highlights": [
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"           I offer a wide range of treatment modalities, including mind-body therapies as well as traditional psychotherapy.\""
+          },
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"                     Clients will have a good experience working with me and will enjoy their improvement and success.\""
+          }
+        ],
+        "id": "593",
+        "irrelevantIssues": [
+          "Special Needs",
+          "Anger",
+          "Career",
+          "Couples"
+        ],
+        "isFavorite": false,
+        "isInNetwork": false,
+        "name": "Rita Hayes",
+        "phone": "9142950843",
+        "photoUrl": "https://s3-us-west-2.amazonaws.com/therapymatch/provider_photos/593.png",
+        "priceInformation": {
+          "detailsOnRecord": false,
+          "insuranceOnRecord": false,
+          "note": "If you let us know your insurance, we can let you know this provider's price",
+          "price": null
+        },
+        "relevantIssues": [],
+        "school": "Columbia University",
+        "statementSentences": [
+          {
+            "highlighted": true,
+            "sentence": "           I offer a wide range of treatment modalities, including mind-body therapies as well as traditional psychotherapy."
+          },
+          {
+            "highlighted": false,
+            "sentence": "These include CBT, Somatic Experiencing (SE), Sensorimotor Psychotherapy, and EMDR."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>My style is active, engaging and focused on achieving client goals within a time limited framework."
+          },
+          {
+            "highlighted": false,
+            "sentence": "Having 25 years  experience as a therapist, combined with specialty treatments, allows for shorter therapy time and a high degree of success."
+          },
+          {
+            "highlighted": false,
+            "sentence": "Lengthy therapy is unnecessary in order to experience positive results and achieve desired goals."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>I work with both individuals and couples."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            My specialty is helping people who, despite efforts to change, continue to struggle with problems in coping or with uncomfortable symptoms."
+          },
+          {
+            "highlighted": false,
+            "sentence": "These symptoms can include anxiety, depression, chronic pain, PTSD, or relationship difficulties."
+          },
+          {
+            "highlighted": false,
+            "sentence": "While working on resolving symptoms I also focus on resiliency skill building utilizing CBT, Somatic Experiencing and EMDR."
+          },
+          {
+            "highlighted": true,
+            "sentence": "<br/>         <br/>            Clients will have a good experience working with me and will enjoy their improvement and success."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>        "
+          }
+        ],
+        "styles": [
+          "somewhat clinical",
+          "somewhat direct"
+        ],
+        "title": "Licensed Social Worker"
+      },
+      {
+        "addresses": [
+          {
+            "address": "300 West 72nd Street Suite 1C New York, New York 10023",
+            "lat": "40.779808",
+            "lng": "-73.984476"
+          },
+          {
+            "address": "201 East 16th Street Suite 3B New York, New York 10003",
+            "lat": "40.734635",
+            "lng": "-73.986253"
+          }
+        ],
+        "age": "32",
+        "degree": "Masters in Social Work (LCSW)",
+        "distance": "1.0mi",
+        "gender": "male",
+        "highlights": [
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"I also work with couples as well as individuals in need of divorce or separation support.\""
+          },
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"I have specialized training in treating eating disorders and problems relating to substance use.\""
+          }
+        ],
+        "id": "1200",
+        "irrelevantIssues": [
+          "Couples",
+          "Cultural",
+          "Career",
+          "Anger",
+          "Eating Disorders",
+          "Spirituality",
+          "Addiction"
+        ],
+        "isFavorite": false,
+        "isInNetwork": false,
+        "name": "Joel G. Kosman",
+        "phone": null,
+        "photoUrl": "https://s3-us-west-2.amazonaws.com/therapymatch/provider_photos/1200.png",
+        "priceInformation": {
+          "detailsOnRecord": false,
+          "insuranceOnRecord": false,
+          "note": "If you let us know your insurance, we can let you know this provider's price",
+          "price": null
+        },
+        "relevantIssues": [],
+        "school": "New York University",
+        "statementSentences": [
+          {
+            "highlighted": false,
+            "sentence": "           I help people to better understand themselves and to decide what and how to change."
+          },
+          {
+            "highlighted": false,
+            "sentence": "An active listener, I encourage curiosity and exploration."
+          },
+          {
+            "highlighted": false,
+            "sentence": "I've worked successfully with people dealing with anxiety, depression, and problems relating to substance use as well as with people looking to reduce overall levels of life stress or seeking to improve critical aspects of their lives such as their romantic relationships, parenting and family life, resilience and motivation, self-esteem, and workplace performance and advancement."
+          },
+          {
+            "highlighted": true,
+            "sentence": "I also work with couples as well as individuals in need of divorce or separation support."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            I've been trained in two disciplines - law and mental health - so am able to listen and respond from multiple perspectives to better address your particular needs."
+          },
+          {
+            "highlighted": true,
+            "sentence": "I have specialized training in treating eating disorders and problems relating to substance use."
+          },
+          {
+            "highlighted": false,
+            "sentence": "I have particular experience working with people in their 20s and 30s."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            I'm a steady presence, and believe you'll find me easy to talk to."
+          },
+          {
+            "highlighted": false,
+            "sentence": "An attentive listener, I'll also ask questions and offer ideas."
+          },
+          {
+            "highlighted": false,
+            "sentence": "We'll start where you are, and go from there - always at your pace."
+          },
+          {
+            "highlighted": false,
+            "sentence": "I have two locations in Manhattan, and Saturday hours."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>        "
+          }
+        ],
+        "styles": [
+          "very personal",
+          "somewhat direct"
+        ],
+        "title": "Licensed Social Worker"
+      },
+      {
+        "addresses": [
+          {
+            "address": "10011",
+            "lat": "40.7511804",
+            "lng": "-73.9986173"
+          }
+        ],
+        "age": "33",
+        "degree": "Masters in Social Work (LCSW)",
+        "distance": "2.8mi",
+        "gender": "female",
+        "highlights": [
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"                     I work interactively and collaboratively, integrating contemporary psychoanalytic theory with other modalities, including cognitive behavioral therapy and mindfulness.\""
+          },
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"                     I am also trained to provide Somatic Experiencing, a mind/body-oriented practice that works directly with the nervous system -- where mental health symptoms are held -- to resolve symptoms and promote emotional healing.\""
+          }
+        ],
+        "id": "643",
+        "irrelevantIssues": [
+          "Special Needs",
+          "Anxiety",
+          "Career",
+          "Anger",
+          "Spirituality",
+          "ADHD"
+        ],
+        "isFavorite": false,
+        "isInNetwork": false,
+        "name": "Elisabeth (Lisa) Youngclaus",
+        "phone": "6467982919",
+        "photoUrl": "https://s3-us-west-2.amazonaws.com/therapymatch/provider_photos/643.png",
+        "priceInformation": {
+          "detailsOnRecord": false,
+          "insuranceOnRecord": false,
+          "note": "If you let us know your insurance, we can let you know this provider's price",
+          "price": null
+        },
+        "relevantIssues": [],
+        "school": "Nyu School Of Social Work",
+        "statementSentences": [
+          {
+            "highlighted": false,
+            "sentence": "           Therapy offers many forms of help to those who feel like they need more support:  new ways of managing mental health symptoms and developing healthier, more adaptive coping strategies when facing problems; tools to resolve difficulties and find more fulfillment in relationships; the possibility of working through past and present trauma, grief and loss; and the opportunity to recognize how our thoughts, beliefs and behaviors affect our relationships to ourselves and others and how self-awareness creates the possibility of change and new experiences."
+          },
+          {
+            "highlighted": false,
+            "sentence": "I work with individual adults and adolescents, as well as couples."
+          },
+          {
+            "highlighted": true,
+            "sentence": "<br/>         <br/>            I work interactively and collaboratively, integrating contemporary psychoanalytic theory with other modalities, including cognitive behavioral therapy and mindfulness."
+          },
+          {
+            "highlighted": false,
+            "sentence": "I have a BA from Yale University and a former 12-year law career, which informs my work with clients facing occupational challenges and the demands of highly competitive work environments."
+          },
+          {
+            "highlighted": true,
+            "sentence": "<br/>         <br/>            I am also trained to provide Somatic Experiencing, a mind/body-oriented practice that works directly with the nervous system -- where mental health symptoms are held -- to resolve symptoms and promote emotional healing."
+          },
+          {
+            "highlighted": false,
+            "sentence": "SE is particularly helpful for those with chronic anxiety, panic attacks, PTSD, dissociation, and somatic pain/conditions."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>        "
+          }
+        ],
+        "styles": [
+          "somewhat nurturing"
+        ],
+        "title": "Licensed Social Worker"
+      },
+      {
+        "addresses": [
+          {
+            "address": "26 West 9th Street Suite 6D New York, New York 10011",
+            "lat": "40.733169",
+            "lng": "-73.996733"
+          }
+        ],
+        "age": "36",
+        "degree": "Doctorate in Psychology (Phd)",
+        "distance": "3.8mi",
+        "gender": "female",
+        "highlights": [
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"But psychoanalytic therapy is also an ongoing, in-depth conversation between two people--one in which the experience of relating to others, including each other right there in the room, can become a meaningful resource and play an important role in the process.\""
+          },
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"                     Psychoanalysis is also depth work.\""
+          }
+        ],
+        "id": "592",
+        "irrelevantIssues": [
+          "Children"
+        ],
+        "isFavorite": false,
+        "isInNetwork": false,
+        "name": "Kim Bernstein",
+        "phone": "9177468586",
+        "photoUrl": "https://s3-us-west-2.amazonaws.com/therapymatch/provider_photos/592.png",
+        "priceInformation": {
+          "detailsOnRecord": false,
+          "insuranceOnRecord": false,
+          "note": "If you let us know your insurance, we can let you know this provider's price",
+          "price": null
+        },
+        "relevantIssues": [],
+        "school": null,
+        "statementSentences": [
+          {
+            "highlighted": false,
+            "sentence": "           I use a contemporary psychoanalytic approach to address a variety of issues by engaging with and honoring each person's unique history, internal experience, and personal and cultural circumstances."
+          },
+          {
+            "highlighted": false,
+            "sentence": "I work with people from many different backgrounds who find themselves struggling in their lives: those who feel stuck or stalled in approaching a crossroads, those who can't get past what has happened or are going through something too big to bear alone, those who know where they want to be but can't seem to get there, and those too anxious or depressed even to look ahead."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            My work starts with listening."
+          },
+          {
+            "highlighted": true,
+            "sentence": "But psychoanalytic therapy is also an ongoing, in-depth conversation between two people--one in which the experience of relating to others, including each other right there in the room, can become a meaningful resource and play an important role in the process."
+          },
+          {
+            "highlighted": true,
+            "sentence": "<br/>         <br/>            Psychoanalysis is also depth work."
+          },
+          {
+            "highlighted": false,
+            "sentence": "Rather than simply pulling proverbial weeds from the garden, we want to uncover the roots."
+          },
+          {
+            "highlighted": false,
+            "sentence": "But therapy isn't just about digging around in one's past; it's also about claiming the present--really living in it--and creating a better, more fulfilling future."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>        "
+          }
+        ],
+        "styles": [
+          "very personal"
+        ],
+        "title": "Psychologist"
+      },
+      {
+        "addresses": [
+          {
+            "address": "Laura A. Jacobs, LCSW-R 352 7th Avenue Between 29th And 30th Streets New York, New York 10001",
+            "lat": "40.7483388",
+            "lng": "-73.9929983"
+          },
+          {
+            "address": "Laura A. Jacobs, LCSW-R 239 North Broadway Suite 6 Sleepy Hollow, New York 10591",
+            "lat": "41.0843011",
+            "lng": "-73.8592042"
+          }
+        ],
+        "age": null,
+        "degree": "Masters in Social Work (LCSWR)",
+        "distance": "2.8mi",
+        "gender": "female",
+        "highlights": [
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"Our initial sessions will be to get to know each other and to establish a trusting relationship on which we can gradually address issues with more depth.\""
+          },
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"I am a speaker, author, and activist, serving on numerous Boards and Committees; in addition, I present on gender, transgender issues, LGBTQ issues, sexuality, and alternate lifestyles for numerous organizations and conferences.\""
+          }
+        ],
+        "id": "344",
+        "irrelevantIssues": [
+          "Special Needs",
+          "Sex Addiction",
+          "Female",
+          "Career",
+          "ADHD",
+          "Eating Disorders",
+          "Children",
+          "Depression",
+          "Couples"
+        ],
+        "isFavorite": false,
+        "isInNetwork": false,
+        "name": "Laura A Jacobs",
+        "phone": "8453047915",
+        "photoUrl": "https://s3-us-west-2.amazonaws.com/therapymatch/provider_photos/344.png",
+        "priceInformation": {
+          "detailsOnRecord": false,
+          "insuranceOnRecord": false,
+          "note": "If you let us know your insurance, we can let you know this provider's price",
+          "price": null
+        },
+        "relevantIssues": [],
+        "school": "New York University, School Of Social Work",
+        "statementSentences": [
+          {
+            "highlighted": false,
+            "sentence": "           LGBQA, transgender, kinky, straight... we all can live rewarding lives."
+          },
+          {
+            "highlighted": false,
+            "sentence": "Experienced with individuals, families, and couples of all gender expressions and sexual orientations, I seek to establish a comfortable environment in which we can work together, safely asking questions and making thoughtful decisions about how to move forward."
+          },
+          {
+            "highlighted": false,
+            "sentence": "And as someone trans* and genderqueer-identified, I intimately understand the terrible effects of stigma, discrimination, trauma, and depression on an individual's life."
+          },
+          {
+            "highlighted": true,
+            "sentence": "Our initial sessions will be to get to know each other and to establish a trusting relationship on which we can gradually address issues with more depth."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            Straight, gay, lesbian, bisexual, queer, pansexual, asexual, trans*, transgender, transsexual, genderqueer, gender nonconforming, kinky, BDSM, vanilla, monogamous, polyamorous... we all have struggles, and we all seek happiness."
+          },
+          {
+            "highlighted": false,
+            "sentence": "I am happy to work with adolescents to the elderly."
+          },
+          {
+            "highlighted": false,
+            "sentence": "Together let's create the most joyful and empowered life for you possible."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            Hours in Manhattan, Westchester, and Jersey City."
+          },
+          {
+            "highlighted": true,
+            "sentence": "I am a speaker, author, and activist, serving on numerous Boards and Committees; in addition, I present on gender, transgender issues, LGBTQ issues, sexuality, and alternate lifestyles for numerous organizations and conferences."
+          },
+          {
+            "highlighted": false,
+            "sentence": "Please visit my website for more information."
+          },
+          {
+            "highlighted": false,
+            "sentence": "www.LauraAJacobs.com <br/>        "
+          }
+        ],
+        "styles": [
+          "somewhat personal"
+        ],
+        "title": "Licensed Social Worker"
+      },
+      {
+        "addresses": [
+          {
+            "address": "119 W 15th Street, Suite GFW, New York, New York, 10011",
+            "lat": "40.7464969",
+            "lng": "-74.0094471"
+          },
+          {
+            "address": "14 Rye Ridge Plaza 236 Rye Brook, New York 10573",
+            "lat": "41.0025501",
+            "lng": "-73.6843261"
+          }
+        ],
+        "age": "32",
+        "degree": "Masters in Social Work (LCSW)",
+        "distance": "3.4mi",
+        "gender": "female",
+        "highlights": [
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"I have extensive specialized training in Eating Disorders, Body Image Issues and Women's Health but work with clients on a variety of clinical concerns/behaviors.\""
+          },
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"My therapeutic approach as a psychotherapist is first and foremost client-centered, working with individuals specifically on establishing objectives and goals to assist them improve their overall quality of life.\""
+          }
+        ],
+        "id": "345",
+        "irrelevantIssues": [
+          "Paternity",
+          "Cultural",
+          "Elders"
+        ],
+        "isFavorite": false,
+        "isInNetwork": false,
+        "name": "Jessica Lora",
+        "phone": "7187104181",
+        "photoUrl": "https://s3-us-west-2.amazonaws.com/therapymatch/provider_photos/345.png",
+        "priceInformation": {
+          "detailsOnRecord": false,
+          "insuranceOnRecord": false,
+          "note": "If you let us know your insurance, we can let you know this provider's price",
+          "price": null
+        },
+        "relevantIssues": [],
+        "school": "Columbia University",
+        "statementSentences": [
+          {
+            "highlighted": false,
+            "sentence": "           I am a Licensed Clinical Social Worker practicing in New York, with a deep rooted passion for empowering individuals that struggle with mental health issues through the art and practice of psychotherapy."
+          },
+          {
+            "highlighted": true,
+            "sentence": "I have extensive specialized training in Eating Disorders, Body Image Issues and Women's Health but work with clients on a variety of clinical concerns/behaviors."
+          },
+          {
+            "highlighted": true,
+            "sentence": "My therapeutic approach as a psychotherapist is first and foremost client-centered, working with individuals specifically on establishing objectives and goals to assist them improve their overall quality of life."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            As a Psychotherapist I feel I have the distinct privilege of learning about each of my clients from a biological, psychological, social and spiritual standpoint with the goal of assisting them to recognize their own inner beauty and strength."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>        "
+          }
+        ],
+        "styles": [
+          "somewhat clinical",
+          "somewhat direct"
+        ],
+        "title": "Licensed Social Worker"
+      },
+      {
+        "addresses": [
+          {
+            "address": "80 E 11th St New York, New York 10003",
+            "lat": "40.732712",
+            "lng": "-73.991914"
+          }
+        ],
+        "age": "32",
+        "degree": "Masters in Social Work (LCSW)",
+        "distance": "3.8mi",
+        "gender": "female",
+        "highlights": [
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"My experience has given me a deep respect for the process of psychotherapy and for you as the client.\""
+          },
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"                     I have found that the right fit is essential to an effective therapy.\""
+          }
+        ],
+        "id": "346",
+        "irrelevantIssues": [
+          "Special Needs",
+          "Couples",
+          "Adolescents",
+          "Career",
+          "Cultural",
+          "Anger",
+          "Addiction"
+        ],
+        "isFavorite": false,
+        "isInNetwork": false,
+        "name": "Emily Schlesinger",
+        "phone": "3479605728",
+        "photoUrl": "https://s3-us-west-2.amazonaws.com/therapymatch/provider_photos/346.png",
+        "priceInformation": {
+          "detailsOnRecord": false,
+          "insuranceOnRecord": false,
+          "note": "If you let us know your insurance, we can let you know this provider's price",
+          "price": null
+        },
+        "relevantIssues": [],
+        "school": "New York University",
+        "statementSentences": [
+          {
+            "highlighted": false,
+            "sentence": "           My practice is informed by extensive postgraduate training and my belief that warmth, honesty, and a sense of humor are vital to the treatment relationship."
+          },
+          {
+            "highlighted": true,
+            "sentence": "My experience has given me a deep respect for the process of psychotherapy and for you as the client."
+          },
+          {
+            "highlighted": false,
+            "sentence": "I have found that when two people work together, there is enormous potential for real transformation."
+          },
+          {
+            "highlighted": false,
+            "sentence": "Together, we can resolve unwanted symptoms and change upsetting patterns, and through this process you will begin to feel better about yourself in love and at work."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            I've helped many people with relationship problems, depression, anxiety, eating disorders, substance abuse, anger, problems of self-harm, artistic or creative blocks, issues of sexuality, and all forms of trauma."
+          },
+          {
+            "highlighted": false,
+            "sentence": "I am able to be more quiet or more active depending on your needs."
+          },
+          {
+            "highlighted": true,
+            "sentence": "<br/>         <br/>            I have found that the right fit is essential to an effective therapy."
+          },
+          {
+            "highlighted": false,
+            "sentence": "If you would like to schedule a consultation and get a sense of how we might work together, I would be happy to hear from you."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>        "
+          }
+        ],
+        "styles": [
+          "very nurturing"
+        ],
+        "title": "Licensed Social Worker"
+      },
+      {
+        "addresses": [
+          {
+            "address": "10023",
+            "lat": "40.7760526869",
+            "lng": "-73.9824924013"
+          }
+        ],
+        "age": "54",
+        "degree": "Doctorate in Psychology (Phd)",
+        "distance": "1.0mi",
+        "gender": "female",
+        "highlights": [
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"My psychoanalytic and spiritual approach seeks to untangle the causes of old behavior problems, while supporting the growth of new, constructive behaviors.\""
+          },
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"                     I am an experienced psychoanalyst/psychotherapist in private practice in New York City for 25 years.\""
+          }
+        ],
+        "id": "347",
+        "irrelevantIssues": [],
+        "isFavorite": false,
+        "isInNetwork": false,
+        "name": "Evelyn R Lief",
+        "phone": "6466009095",
+        "photoUrl": "https://s3-us-west-2.amazonaws.com/therapymatch/provider_photos/347.png",
+        "priceInformation": {
+          "detailsOnRecord": false,
+          "insuranceOnRecord": false,
+          "note": "If you let us know your insurance, we can let you know this provider's price",
+          "price": null
+        },
+        "relevantIssues": [],
+        "school": "Union Graduate School",
+        "statementSentences": [
+          {
+            "highlighted": false,
+            "sentence": "           I believe each person can find more peace and fullfillment in his or her life."
+          },
+          {
+            "highlighted": true,
+            "sentence": "My psychoanalytic and spiritual approach seeks to untangle the causes of old behavior problems, while supporting the growth of new, constructive behaviors."
+          },
+          {
+            "highlighted": false,
+            "sentence": "A safe and empathic atmosphere will help you as we explore together the past and the present in order to create a more productive and happier future."
+          },
+          {
+            "highlighted": true,
+            "sentence": "<br/>         <br/>            I am an experienced psychoanalyst/psychotherapist in private practice in New York City for 25 years."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            Although I am out-of-network, I am credentialed with many insurance plans."
+          },
+          {
+            "highlighted": false,
+            "sentence": "I offer a flexible fee arrangement to help you meet any deductibles and your fees will usually be very similar to your in-network costs."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>        "
+          }
+        ],
+        "styles": [
+          "somewhat personal",
+          "somewhat direct"
+        ],
+        "title": "Psychologist"
+      },
+      {
+        "addresses": [
+          {
+            "address": "Behavioral Associates 114 E 90th St Suite #1A New York, New York 10128",
+            "lat": "40.782133",
+            "lng": "-73.954434"
+          }
+        ],
+        "age": "39",
+        "degree": "Masters in Social Work (LMSW)",
+        "distance": "0.6mi",
+        "gender": "female",
+        "highlights": [
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"           Specializing in DBT, Anya has had success in the treatment of patients suffering from borderline personality disorder, post traumatic  stress disorder, eating disorders, anxiety, depression and substance abuse as well as those known to exhibit extreme mood swings, self-injurious behaviors, emotional dysregulation and phobias.\""
+          }
+        ],
+        "id": "340",
+        "irrelevantIssues": [
+          "Special Needs",
+          "Couples",
+          "Female",
+          "Cultural",
+          "Addiction",
+          "Children",
+          "Anger"
+        ],
+        "isFavorite": false,
+        "isInNetwork": false,
+        "name": "Anya Shumilina",
+        "phone": "6467985430",
+        "photoUrl": "https://s3-us-west-2.amazonaws.com/therapymatch/provider_photos/340.png",
+        "priceInformation": {
+          "detailsOnRecord": false,
+          "insuranceOnRecord": false,
+          "note": "If you let us know your insurance, we can let you know this provider's price",
+          "price": null
+        },
+        "relevantIssues": [],
+        "school": "Columbia University",
+        "statementSentences": [
+          {
+            "highlighted": true,
+            "sentence": "           Specializing in DBT, Anya has had success in the treatment of patients suffering from borderline personality disorder, post traumatic  stress disorder, eating disorders, anxiety, depression and substance abuse as well as those known to exhibit extreme mood swings, self-injurious behaviors, emotional dysregulation and phobias."
+          },
+          {
+            "highlighted": false,
+            "sentence": "She is additionally trained in mindfulness, biofeedback, neurofeedback and virtual reality."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            Anya Shumilina, LMSW, M.A., Director of the Behavioral Associates Dialectical Behavioral Therapy Center received her Masters in   Social Work at the Columbia University School of Social Work in the Dialectical Behavioral Therapy (DBT) Program after receiving a   Masters of Arts at the City College of New York."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            Anya is fluent in Russian and has worked both internationally and domestically devoting many hours working with the LGBTQ, minority, and immigrant populations."
+          },
+          {
+            "highlighted": false,
+            "sentence": "She has held positions at both   Mount Sinai and Bronx Lebanon Hospitals giving her in depth experience with patients dealing with depression, anxiety and  addiction."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>        "
+          }
+        ],
+        "styles": [
+          "somewhat clinical",
+          "somewhat nurturing"
+        ],
+        "title": "Licensed Social Worker"
+      },
+      {
+        "addresses": [
+          {
+            "address": "165 East 89th Street New York, New York 10128",
+            "lat": "40.7811781",
+            "lng": "-73.953055"
+          },
+          {
+            "address": "26 Imperial Avenue Westport, Connecticut 06880",
+            "lat": "41.1403767",
+            "lng": "-73.3584639"
+          }
+        ],
+        "age": "63",
+        "degree": "Doctorate in Psychology (Phd)",
+        "distance": "0.7mi",
+        "gender": "female",
+        "highlights": [
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"           As a child therapist and parent-child specialist, I have become increasingly aware of the impact on parents and children of today's stressful culture.\""
+          },
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"                     My goal throughout is to help families reduce anxiety, restore communication and increase their joy in one another.\""
+          }
+        ],
+        "id": "341",
+        "irrelevantIssues": [
+          "Eating Disorders",
+          "Bereavement",
+          "Anger",
+          "Children",
+          "Spirituality",
+          "ADHD"
+        ],
+        "isFavorite": false,
+        "isInNetwork": false,
+        "name": "Elaine Levy Cooper",
+        "phone": "2032217189",
+        "photoUrl": "https://s3-us-west-2.amazonaws.com/therapymatch/provider_photos/341.png",
+        "priceInformation": {
+          "detailsOnRecord": false,
+          "insuranceOnRecord": false,
+          "note": "If you let us know your insurance, we can let you know this provider's price",
+          "price": null
+        },
+        "relevantIssues": [],
+        "school": "New York University",
+        "statementSentences": [
+          {
+            "highlighted": true,
+            "sentence": "           As a child therapist and parent-child specialist, I have become increasingly aware of the impact on parents and children of today's stressful culture."
+          },
+          {
+            "highlighted": false,
+            "sentence": "Parents are constantly bombarded with advice/information about work, school, family, and parenting from friends, relatives and the media 'experts'."
+          },
+          {
+            "highlighted": false,
+            "sentence": "While information should empower, with so much available from so many different and competing sources, it can sometimes be difficult for parents to know if they are making the 'right' decisions for themselves and for their children."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            I work with parents to help them trust their own choices and develop confidence in a parenting style that reflects their personal values."
+          },
+          {
+            "highlighted": false,
+            "sentence": "I use an age-appropriate combination of play and talk therapy to help young children work through their particular social, school and/or family anxieties."
+          },
+          {
+            "highlighted": true,
+            "sentence": "<br/>         <br/>            My goal throughout is to help families reduce anxiety, restore communication and increase their joy in one another."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>        "
+          }
+        ],
+        "styles": [
+          "somewhat personal"
+        ],
+        "title": "Psychologist"
+      },
+      {
+        "addresses": [
+          {
+            "address": "10001",
+            "lat": "40.7484271325",
+            "lng": "-73.9943048817"
+          }
+        ],
+        "age": "39",
+        "degree": "Masters in Social Work (LCSW)",
+        "distance": "2.8mi",
+        "gender": "female",
+        "highlights": [
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"                     In order to be most effective as a therapist, I've undergone the most rigorous, psychoanalytic, training.\""
+          },
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"And draw, too, on my background in literature, religious studies, theater, movement and body work.\""
+          }
+        ],
+        "id": "342",
+        "irrelevantIssues": [
+          "Sexual Trauma"
+        ],
+        "isFavorite": false,
+        "isInNetwork": false,
+        "name": "Elizabeth Schretzman",
+        "phone": "9177913182",
+        "photoUrl": "https://s3-us-west-2.amazonaws.com/therapymatch/provider_photos/342.png",
+        "priceInformation": {
+          "detailsOnRecord": false,
+          "insuranceOnRecord": false,
+          "note": "If you let us know your insurance, we can let you know this provider's price",
+          "price": null
+        },
+        "relevantIssues": [],
+        "school": "New York University School Of Social Work",
+        "statementSentences": [
+          {
+            "highlighted": false,
+            "sentence": "           Hi and welcome."
+          },
+          {
+            "highlighted": false,
+            "sentence": "If you're feeling stuck,  having trouble getting your life moving in the right direction, maybe overwhelmed by feelings, or not feeling, lonely, anxious or depressed, psychotherapy can help you make real change, within and without."
+          },
+          {
+            "highlighted": false,
+            "sentence": "A lot of us become blocked because we grew up in homes where, at the very least, we weren't really seen, heard or understood."
+          },
+          {
+            "highlighted": false,
+            "sentence": "Often our gifts are also our burdens; and sometimes we need help creating balance."
+          },
+          {
+            "highlighted": false,
+            "sentence": "It is my calling, training, and great privilege, to help you appreciate the best in yourself and transform what isn't working into what is."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            Therapy can be a challenging experience."
+          },
+          {
+            "highlighted": false,
+            "sentence": "But with the right person it can also be enjoyable and uplifting, as you find yourself able to reclaim more and more of who you are, as outdated coping strategies fall away."
+          },
+          {
+            "highlighted": true,
+            "sentence": "<br/>         <br/>            In order to be most effective as a therapist, I've undergone the most rigorous, psychoanalytic, training."
+          },
+          {
+            "highlighted": false,
+            "sentence": "But new ways of thinking, and new techniques arise all the time and I use these, as well."
+          },
+          {
+            "highlighted": true,
+            "sentence": "And draw, too, on my background in literature, religious studies, theater, movement and body work."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>        "
+          }
+        ],
+        "styles": [
+          "somewhat personal",
+          "very nurturing"
+        ],
+        "title": "Licensed Social Worker"
+      },
+      {
+        "addresses": [
+          {
+            "address": "156 5th Ave Suite 612 New York, New York 10010",
+            "lat": "40.739869",
+            "lng": "-73.990803"
+          }
+        ],
+        "age": "48",
+        "degree": "Masters in Social Work (LCSW)",
+        "distance": "3.3mi",
+        "gender": "female",
+        "highlights": [
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"I use the modalities of individual therapy as well as group and couples therapy.\""
+          },
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"I have been a Supervisor in both Individual and Group Training at the Postgraduate Center, and led a program specializing in the treatment of people in the arts.\""
+          }
+        ],
+        "id": "343",
+        "irrelevantIssues": [
+          "Career",
+          "Family"
+        ],
+        "isFavorite": false,
+        "isInNetwork": false,
+        "name": "Rhoda M Urman",
+        "phone": "6465831989",
+        "photoUrl": "https://s3-us-west-2.amazonaws.com/therapymatch/provider_photos/343.png",
+        "priceInformation": {
+          "detailsOnRecord": false,
+          "insuranceOnRecord": false,
+          "note": "If you let us know your insurance, we can let you know this provider's price",
+          "price": null
+        },
+        "relevantIssues": [],
+        "school": "Yeshiva University",
+        "statementSentences": [
+          {
+            "highlighted": false,
+            "sentence": "           Which primary experience in life usually has the most impact on us?"
+          },
+          {
+            "highlighted": false,
+            "sentence": "Relationships."
+          },
+          {
+            "highlighted": false,
+            "sentence": "If you uncover the source of most problems in living, childhood relationships and the resulting psychological fallout are at the root."
+          },
+          {
+            "highlighted": false,
+            "sentence": "Recognizing you are struggling with something is the beginning step in a courageous journey towards changing it."
+          },
+          {
+            "highlighted": false,
+            "sentence": "Without judgment, I will support you on that journey as you learn to understand the origins of your problems, and how to make changes for greater life satisfaction."
+          },
+          {
+            "highlighted": false,
+            "sentence": "I encourage you to respect, rather than fear, your problems as a signal to seek help."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            I am a psychotherapist with 18 years' experience in treating adults who seek to break through self-defeating patterns."
+          },
+          {
+            "highlighted": true,
+            "sentence": "I use the modalities of individual therapy as well as group and couples therapy."
+          },
+          {
+            "highlighted": false,
+            "sentence": "Group therapy can be a particularly effective and affordable way to deal with relationship problems."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            From 2002-2009, I was on the training faculty of the Beth Israel Department of Psychiatry."
+          },
+          {
+            "highlighted": true,
+            "sentence": "I have been a Supervisor in both Individual and Group Training at the Postgraduate Center, and led a program specializing in the treatment of people in the arts."
+          },
+          {
+            "highlighted": false,
+            "sentence": "My practice today continues this focus."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>        "
+          }
+        ],
+        "styles": [
+          "somewhat clinical",
+          "somewhat nurturing"
+        ],
+        "title": "Licensed Social Worker"
+      },
+      {
+        "addresses": [
+          {
+            "address": "525 West End Avenue Suite 1d New York, New York 10024",
+            "lat": "40.788277",
+            "lng": "-73.978301"
+          },
+          {
+            "address": "2001 West Main St. Suite 106F Stamford, Connecticut 06902",
+            "lat": "41.048328",
+            "lng": "-73.563386"
+          }
+        ],
+        "age": "60",
+        "degree": "Doctorate in Psychology (Phd)",
+        "distance": "0.7mi",
+        "gender": "male",
+        "highlights": [
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"These include traditional psychotherapy, Somatic Experiencing, and EMDR.\""
+          },
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"                     These methodologies are used to dissolve the obstacles that keep us from getting what we want.\""
+          }
+        ],
+        "id": "348",
+        "irrelevantIssues": [
+          "Special Needs",
+          "Anger",
+          "Couples",
+          "Addiction"
+        ],
+        "isFavorite": false,
+        "isInNetwork": false,
+        "name": "Alan Cauldwell",
+        "phone": "8603081325",
+        "photoUrl": "https://s3-us-west-2.amazonaws.com/therapymatch/provider_photos/348.png",
+        "priceInformation": {
+          "detailsOnRecord": false,
+          "insuranceOnRecord": false,
+          "note": "If you let us know your insurance, we can let you know this provider's price",
+          "price": null
+        },
+        "relevantIssues": [],
+        "school": "Hunter College, Union Institute",
+        "statementSentences": [
+          {
+            "highlighted": false,
+            "sentence": "           I provide a therapeutic space, which allows people to heal their past, shape their future, and live more fully in the present."
+          },
+          {
+            "highlighted": false,
+            "sentence": "I utilize a variety of approaches to help individuals achieve self-actualization."
+          },
+          {
+            "highlighted": true,
+            "sentence": "These include traditional psychotherapy, Somatic Experiencing, and EMDR."
+          },
+          {
+            "highlighted": true,
+            "sentence": "<br/>         <br/>            These methodologies are used to dissolve the obstacles that keep us from getting what we want."
+          },
+          {
+            "highlighted": false,
+            "sentence": "They may be in the form of depression, anxiety, communication difficulties, problems negotiating successful life transitions, and trauma, which often leads to substance abuse/dependency; these obstacles keep us from achieving a more fulfilling life."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            As problems are resolved, the necessary resources we need to move forward are discovered and developed."
+          },
+          {
+            "highlighted": false,
+            "sentence": "In my private practice I have been helping people resolve problems and develop their resources for over twenty four years."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>        "
+          }
+        ],
+        "styles": [],
+        "title": "Licensed Social Worker"
+      },
+      {
+        "addresses": [
+          {
+            "address": "6 West 77th Street New York, New York 10024",
+            "lat": "40.779527",
+            "lng": "-73.97369"
+          }
+        ],
+        "age": "45",
+        "degree": "Doctorate in Psychology (Phd)",
+        "distance": "0.5mi",
+        "gender": "female",
+        "highlights": [
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"           I have experience with adults of all ages dealing with relationship issues, struggles with life goals, depression and anxiety.\""
+          },
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"I actively and empathically support each person as we explore their experience of themselves and their relationships with others.\""
+          }
+        ],
+        "id": "349",
+        "irrelevantIssues": [
+          "Anger",
+          "Couples",
+          "Career"
+        ],
+        "isFavorite": false,
+        "isInNetwork": false,
+        "name": "Deborah L Posner",
+        "phone": "6463951218",
+        "photoUrl": "https://s3-us-west-2.amazonaws.com/therapymatch/provider_photos/349.png",
+        "priceInformation": {
+          "detailsOnRecord": false,
+          "insuranceOnRecord": false,
+          "note": "If you let us know your insurance, we can let you know this provider's price",
+          "price": null
+        },
+        "relevantIssues": [],
+        "school": "Adelphi Univ., William Alanson White Institute",
+        "statementSentences": [
+          {
+            "highlighted": true,
+            "sentence": "           I have experience with adults of all ages dealing with relationship issues, struggles with life goals, depression and anxiety."
+          },
+          {
+            "highlighted": true,
+            "sentence": "I actively and empathically support each person as we explore their experience of themselves and their relationships with others."
+          },
+          {
+            "highlighted": false,
+            "sentence": "By gaining more understanding of past AND present influences on your life, new choices become available."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>        "
+          }
+        ],
+        "styles": [
+          "somewhat personal"
+        ],
+        "title": "Psychologist"
+      },
+      {
+        "addresses": [
+          {
+            "address": "49 West 24th Street Suite 605 New York, New York 10010",
+            "lat": "40.742671",
+            "lng": "-73.990173"
+          }
+        ],
+        "age": "39",
+        "degree": "Doctorate in Psychology (PsyD)",
+        "distance": "3.1mi",
+        "gender": "male",
+        "highlights": [
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"Whether you experience repetitive conflicts in an intimate relationship, or similar interpersonal problems with a variety of people, I'd like to help.\""
+          },
+          {
+            "metadata": {
+              "issues": [],
+              "styles": [
+                "clinical"
+              ]
+            },
+            "sentence": "\"                     Depending on your preferences and needs, you and I may decide to work together briefly to get through a current challenge or longer-term to resolve longstanding difficulties and achieve lasting results.\""
+          }
+        ],
+        "id": "1296",
+        "irrelevantIssues": [
+          "Career"
+        ],
+        "isFavorite": false,
+        "isInNetwork": false,
+        "name": "Geoffrey Steinberg",
+        "phone": null,
+        "photoUrl": "https://s3-us-west-2.amazonaws.com/therapymatch/provider_photos/1296.png",
+        "priceInformation": {
+          "detailsOnRecord": false,
+          "insuranceOnRecord": false,
+          "note": "If you let us know your insurance, we can let you know this provider's price",
+          "price": null
+        },
+        "relevantIssues": [],
+        "school": "Antioch University New England",
+        "statementSentences": [
+          {
+            "highlighted": false,
+            "sentence": "           Do you find yourself repeating unhealthy patterns in your personal relationships?"
+          },
+          {
+            "highlighted": true,
+            "sentence": "Whether you experience repetitive conflicts in an intimate relationship, or similar interpersonal problems with a variety of people, I'd like to help."
+          },
+          {
+            "highlighted": false,
+            "sentence": "Our work together may help you improve your ability to communicate effectively, work through conflicts with others, and establish more satisfying personal relationships."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>         <br/>            I specialize in therapy that focuses on increasing your awareness of ways you may unknowingly repeat unhealthy patterns that you learned early in life."
+          },
+          {
+            "highlighted": false,
+            "sentence": "Our work may allow you greater freedom from your past, and thus greater choice in how you live today."
+          },
+          {
+            "highlighted": true,
+            "sentence": "<br/>         <br/>            Depending on your preferences and needs, you and I may decide to work together briefly to get through a current challenge or longer-term to resolve longstanding difficulties and achieve lasting results."
+          },
+          {
+            "highlighted": false,
+            "sentence": "I welcome you to schedule an initial consultation to clarify your needs and decide together how to proceed."
+          },
+          {
+            "highlighted": false,
+            "sentence": "<br/>        "
+          }
+        ],
+        "styles": [
+          "somewhat personal",
+          "somewhat nurturing"
+        ],
+        "title": "Psychologist"
+      }
+    ],
+    "totalItemsCount": 2823
+  }
+]

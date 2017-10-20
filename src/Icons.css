@@ -1,0 +1,21 @@
+.Icon {
+  width: 44px;
+  heigh: 44px;
+  z-index: 800;
+  position: absolute;
+  left: -22px;
+  top: -44px;
+  cursor: pointer;
+}
+
+.Icon-pin {
+  fill: orange;
+  stroke: darkorange;
+
+}
+
+.Icon-pin--hover {
+  fill: #b5ff50;
+  stroke: darkgreen;
+  z-index: 900;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "map.vs.map",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "google-map-react": "^0.24.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-controllables": "^0.6.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "HTTPS=true react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "https://dev.api.findheadway.com:5000"
+}

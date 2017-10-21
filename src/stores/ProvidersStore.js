@@ -4,7 +4,8 @@ import uiStore from './UIStore';
 import ProviderModel from '../models/ProviderModel';
 import request from '../middleware/request';
 
-const PROVIDERS_URL = `/api/providers`;
+//const PROVIDERS_URL = `/api/providers`;
+const PROVIDERS_URL = `data/providers.json`;
 
 
 class ProvidersStore {

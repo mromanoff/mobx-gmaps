@@ -82,9 +82,6 @@ export const API = {
     const body: Object = await response.json();
 
     if (!response.ok) {
-
-      console.log('response', response)
-
       throw body;
     }
     return body;

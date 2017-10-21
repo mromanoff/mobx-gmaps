@@ -25,3 +25,76 @@
   stroke: #cc3124;
   z-index: 900;
 }
+
+.ProviderMap-infoWindow {
+  height: 0;
+  transform: translate3d(0, 0, 0);
+  overflow: hidden;
+  transition: height 0.35s cubic-bezier(0.485, 1.650, 0.545, 0.835);
+  background: white;
+  width: 250px;
+  z-index: 999;
+  position: absolute;
+  top: -100px;
+  left: -5px;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4)
+}
+
+.ProviderMap-infoWindow:before {
+  content: " ";
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 15px solid white;
+  position: absolute;
+  bottom: -22px;
+  left: 50%;
+  transform: translateY(-50%);
+}
+
+.ProviderMap-infoWindow.is-active {
+  height: 80px;
+  overflow: visible;
+}
+
+.ProviderMap-wrapper {
+  padding: .5rem;
+}
+
+.ProviderMap-imageWrapper {
+  width: 60px;
+  height: 60px;
+  margin-right: 1rem;
+  border: 3px solid #e7e7e7;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+}
+
+.ProviderMap-name {
+  font-size: 1rem;
+  margin: 0 0 3px 70px;
+  font-weight: 300;
+}
+
+.ProviderMap-address {
+  margin: 0 0 0 70px;
+  font-size: .75rem;
+  letter-spacing: normal;
+  max-width: 200px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.ProviderMap-image {
+  width: 100%;
+  min-width: 100%;
+  height: auto;
+}
+
+.gm-style img {
+  max-width: none;
+}

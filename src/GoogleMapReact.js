@@ -7,21 +7,41 @@ import GoogleMap from 'google-map-react';
 import {MAP} from './constants';
 import PinIcon from './Pin';
 
-const K_SIZE = 22;
+//const K_SIZE = 22;
+
+const K_SIZE = 40;
+
 
 class Marker extends Component {
   static propTypes = {
     // GoogleMap pass $hover props to hovered components
     $hover: PropTypes.bool,
+    provider: PropTypes.object,
   };
 
   render() {
     const className = this.props.$hover ? 'Icon-pin--hover' : 'Icon-pin';
+    const {provider} = this.props;
 
     return (
-      <PinIcon
-        className={`Icon ${className}  ${this.props.isActive ? 'is-active' : '' }`}
-      />
+      <div>
+        <PinIcon
+          className={`Icon ${className}  ${this.props.isActive ? 'is-active' : '' }`}
+        />
+        <div className={`ProviderMap-infoWindow ${this.props.isActive ? 'is-active' : '' }`}>
+          <div className="ProviderMap-wrapper">
+
+            <div className="ProviderMap-imageWrapper">
+              <img alt={provider.name} className="ProviderMap-image"
+                   src={provider.photoUrl}/>
+            </div>
+            <h3 className="ProviderMap-name">
+              <a href={`/providers/${provider.id}`}>{provider.name}</a>
+            </h3>
+            <h4 className="ProviderMap-address">{provider.addresses[0].address}</h4>
+          </div>
+        </div>
+      </div>
     );
   }
 }
@@ -56,8 +76,8 @@ export default class GMap extends Component {
 
   @action
   recenterMap = (lat, lng) => {
-    this.center = [parseFloat(lat), parseFloat(lng)]
-  }
+    this.center = [parseFloat(lat), parseFloat(lng)];
+  };
 
   createMapOptions = (maps) => {
     return {
@@ -69,7 +89,7 @@ export default class GMap extends Component {
   };
 
   @action
-  _onChange = ({center, zoom, bounds, marginBounds}) => {
+  _onChange = ({center, zoom /*, bounds, marginBounds*/}) => {
     this.center = center;
     this.zoom = zoom;
   };
@@ -85,11 +105,8 @@ export default class GMap extends Component {
   };
 
   @action
-  _onChildClick = (key, childProps) => {
-    console.log('child click', key, childProps);
-
+  _onChildClick = (key /*, childProps*/) => {
     this.props.providersStore.setProviderById(key);
-    // this.center = [parseFloat(childProps.lat), parseFloat(childProps.lng)];
   };
 
   render() {
@@ -102,6 +119,7 @@ export default class GMap extends Component {
         lng={marker.addresses[0].lng}
         isActive={provider.id === marker.id}
         hover={this.props.hoverKey === marker.id}
+        provider={marker}
       />,
     );
 
@@ -120,6 +138,7 @@ export default class GMap extends Component {
           onChildClick={this._onChildClick}
           onChildMouseEnter={this._onChildMouseEnter}
           onChildMouseLeave={this._onChildMouseLeave}
+          resetBoundsOnResize={true}
         >
           {markers}
         </GoogleMap>

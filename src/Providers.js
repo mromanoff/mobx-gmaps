@@ -16,22 +16,17 @@ class Providers extends Component {
 
   constructor(props) {
     super(props);
-    this.providersStore = this.props.providersStore;
-    this.uiStore = this.props.uiStore;
-
-    this.providersStore.fetchProviders();
+    this.props.providersStore.fetchProviders();
   }
 
   render() {
 
-    if (this.uiStore.isLoading) {
+    if (this.props.uiStore.isLoading) {
       return <div>Loading...</div>;
     }
 
     return (
       <div className="Providers">
-
-        <h1>Providers</h1>
 
         <GoogleMapReact className={'Providers-map'}/>
 

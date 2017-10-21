@@ -12,7 +12,7 @@ class UIStore {
     window.uiStore = this;
 
     autorun(() => {
-      console.log(this.requestCount);
+      //console.log(this.requestCount);
     });
   }
 

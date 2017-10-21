@@ -1,1 +1,1 @@
-## POC Mobx and Google maps
+## POC Mobx and Google Maps

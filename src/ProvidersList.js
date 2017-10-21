@@ -13,6 +13,8 @@ class ProvidersList extends Component {
   static propTypes = {
     className: PropTypes.string,
     providers: PropTypes.array.isRequired,
+    activeProviderId: PropTypes.string,
+    onClick: PropTypes.func,
   };
 
   render() {
@@ -22,6 +24,7 @@ class ProvidersList extends Component {
           this.props.providers.map(provider =>
             <ProvidersItem
               className="Providers-listItem"
+              isActive={this.props.activeProviderId === provider.id}
               key={provider.id}
               provider={provider}
               onClick={this.props.onClick}

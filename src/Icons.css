@@ -19,3 +19,9 @@
   stroke: darkgreen;
   z-index: 900;
 }
+
+.Icon-pin.is-active {
+  fill: #ff763b;
+  stroke: #cc3124;
+  z-index: 900;
+}

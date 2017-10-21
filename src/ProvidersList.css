@@ -10,5 +10,9 @@
   border-bottom: 1px solid currentColor;
 }
 
+.Providers-listItem.is-active{
+  background-color: #b5ff50;
+}
+
 
 

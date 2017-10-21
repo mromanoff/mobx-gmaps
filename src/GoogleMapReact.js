@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import GoogleMap from 'google-map-react';
-import controllable from 'react-controllables';
 
 import {MAP} from './constants';
 import PinIcon from './Pin';
@@ -53,47 +52,47 @@ class Marker extends Component {
     // GoogleMap pass $hover props to hovered components
     // to detect hover it uses internal mechanism, explained in x_distance_hover example
     $hover: PropTypes.bool,
-    text: PropTypes.string,
+    id: PropTypes.string,
+    isActive: PropTypes.bool,
   };
 
   static defaultProps = {};
-
-  //shouldComponentUpdate = shouldPureComponentUpdate;
-
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     //const style = this.props.$hover ? MarkerStyleHover : MarkerStyle;
     const className = this.props.$hover ? 'Icon-pin--hover' : 'Icon-pin';
 
     return (
-        <PinIcon className={`Icon ${className}`}/>
+      <PinIcon
+        className={`Icon ${className}  ${this.props.isActive ? 'is-active' : '' }`}
+      />
     );
   }
 }
 
-
-class GMap extends Component {
+export default class GMap extends Component {
 
   static propTypes = {
-    center: PropTypes.array, // @controllable
-    zoom: PropTypes.number, // @controllable
-    hoverKey: PropTypes.string, // @controllable
-    clickKey: PropTypes.string, // @controllable
-    onCenterChange: PropTypes.func, // @controllable generated fn
-    onZoomChange: PropTypes.func, // @controllable generated fn
-    onHoverKeyChange: PropTypes.func, // @controllable generated fn
+    className: PropTypes.string,
+    activeProviderId: PropTypes.string,
+    providers: PropTypes.array.isRequired,
+    onClick: PropTypes.func,
   };
 
   static defaultProps = {
-    center: [40.7977734292, -73.9675693365],
-    zoom: 12,
+    className: 'Providers-map',
+    //center: [40.7977734292, -73.9675693365],
+    //zoom: 12,
   };
 
   constructor(props) {
     super(props);
+
+    this.state = {
+      activeProviderId: this.props.activeProviderId,
+      center: [40.7977734292, -73.9675693365],
+      zoom: 12,
+    };
   }
 
   createMapOptions = (maps) => {
@@ -101,80 +100,97 @@ class GMap extends Component {
       panControl: false,
       mapTypeControl: false,
       scrollwheel: false,
-      styles: MAP.THEME
-    }
-  }
+      styles: MAP.THEME,
+    };
+  };
 
-  _onBoundsChange = (center, zoom , bounds, marginBounds) => {
-    this.props.onCenterChange(center);
-    this.props.onZoomChange(zoom);
-    console.log('bounds change',  bounds);
-  }
+  _onChange = ({center, zoom, bounds, marginBounds}) => {
+    //this.props.onCenterChange(center);
+    //this.props.onZoomChange(zoom);
+    //console.log('bounds change', bounds);
+    this.setState({
+      center: center,
+      zoom: zoom,
+    });
+
+  };
 
   _onChildMouseEnter = (key /*, childProps */) => {
-    this.props.onHoverKeyChange(key);
-  }
+    //this.props.onHoverKeyChange(key);
 
-  _onChildMouseLeave = (/* key, childProps */) => {
-    this.props.onHoverKeyChange(null);
-  }
+    //console.log('on Child mouse enter', key);
+  };
+
+  _onChildMouseLeave = (key /*, childProps */) => {
+    //this.props.onHoverKeyChange(null);
+    //console.log('on Child mouse leave', key);
+  };
 
   _onChildClick = (key, childProps) => {
 
     //debugger;
 
-    // const markerId = childProps.marker.get('id');
-    // const index = this.props.markers.findIndex(m => m.get('id') === markerId);
-    //
-    // if (this.props.onChildClick) {
-    //   this.props.onChildClick(index);
-    // }
+    //const markerId = childProps.id;
+    //const activeProvider = this.props.providers.find(provider => provider.id === markerId);
+
+    //console.log('index', activeProvider);
+
+
 
     //console.log('markerId', markerId, index);
+    //this.props.onCenterChange([childProps.lat, childProps.lng]);
 
-    debugger;
-    this.props.onCenterChange([childProps.lat, childProps.lng]);
+    console.log('child click', key, childProps);
 
-    //console.log('child click', childProps.lat, childProps.lng);
-  }
+    if (this.props.onClick) {
+      this.props.onClick(childProps.id);
+    }
+
+    this.setState({
+      center: [parseFloat(childProps.lat), parseFloat(childProps.lng)],
+    });
+  };
 
   render() {
 
     const places = this.props.providers.map(provider => {
-      const {id, addresses} = provider;
+        const {id, addresses} = provider;
 
         return (
           <Marker
             key={id}
             lat={addresses[0].lat}
             lng={addresses[0].lng}
-            text={id}
-            //bgColor={index % 2 ? '#ff81ca' : '#96aff8'}
+            id={id}
+            isActive={this.props.activeProviderId === id}
             hover={this.props.hoverKey === id}
           />
-        )
-      }
-    )
+        );
+      },
+    );
 
     return (
-      <GoogleMap
-        bootstrapURLKeys={MAP.SETTINGS}
-        // apiKey={YOUR_GOOGLE_MAP_API_KEY} // set if you need stats etc ...
-        options={this.createMapOptions}
-        center={this.props.center}
-        zoom={this.props.zoom}
-        hoverDistance={K_SIZE / 2}
-        onBoundsChange={this._onBoundsChange}
-        onChildClick={this._onChildClick}
-        onChildMouseEnter={this._onChildMouseEnter}
-        onChildMouseLeave={this._onChildMouseLeave}
+      <div
+        style={{width: '100%', height: '400px'}}
+        className={this.props.className}
       >
+        <GoogleMap
+          bootstrapURLKeys={MAP.SETTINGS}
+          options={this.createMapOptions}
+          center={this.state.center}
+          zoom={this.state.zoom}
+          hoverDistance={K_SIZE / 2}
+          onChange={this._onChange}
+          onChildClick={this._onChildClick}
+          onChildMouseEnter={this._onChildMouseEnter}
+          onChildMouseLeave={this._onChildMouseLeave}
+          //onClick={this.props.onClick}
+        >
 
-        {places}
+          {places}
 
-      </GoogleMap>
+        </GoogleMap>
+      </div>
     );
   }
 }
-
-export default controllable(GMap, ['center', 'zoom', 'hoverKey', 'clickKey'])

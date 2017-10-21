@@ -12,6 +12,7 @@ class Providers extends Component {
 
     this.state = {
       providers: [],
+      activeProviderId: '',
       isLoading: true,
       isError: false,
     };
@@ -38,9 +39,13 @@ class Providers extends Component {
     this.fetchProviders();
   }
 
-  handleListItemClick = (provider) => {
-    console.log('list item clicked', provider);
-  }
+  handleListItemClick = (providerId) => {
+    console.log('selected provider', providerId);
+
+    this.setState({
+      activeProviderId: providerId,
+    });
+  };
 
   render() {
 
@@ -50,20 +55,22 @@ class Providers extends Component {
 
     return (
       <div className="Providers">
+
         <h1>Providers</h1>
 
-        <div
+        <GoogleMapReact
           className={'Providers-map'}
-          style={{width: '100%', height: '400px'}}>
-          <GoogleMapReact providers={this.state.providers}/>
-        </div>
-
-        <ProvidersList
           providers={this.state.providers}
-          className={'Providers-list'}
+          activeProviderId={this.state.activeProviderId}
           onClick={this.handleListItemClick}
         />
 
+        <ProvidersList
+          className={'Providers-list'}
+          providers={this.state.providers}
+          activeProviderId={this.state.activeProviderId}
+          onClick={this.handleListItemClick}
+        />
 
       </div>
     );

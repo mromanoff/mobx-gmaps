@@ -13,13 +13,14 @@ class ProvidersList extends Component {
     className: PropTypes.string,
     provider: PropTypes.object.isRequired,
     onClick: PropTypes.func,
+    isActive: PropTypes.bool,
   };
 
   render() {
     return (
       <div
-        className={this.props.className}
-        onClick={() => this.props.onClick(this.props.provider)}
+        className={`${this.props.className} ${this.props.isActive ? 'is-active' : ''}`}
+        onClick={() => this.props.onClick(this.props.provider.id)}
       >
         {this.props.provider.id}. {this.props.provider.name}
       </div>

@@ -1,55 +1,30 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
+import {inject, observer} from 'mobx-react';
 
 import GoogleMapReact from './GoogleMapReact';
 import ProvidersList from './ProvidersList';
-import request from './middleware/request';
 
-
+@inject('providersStore', 'uiStore')
+@observer
 class Providers extends Component {
 
-  constructor() {
-    super();
-
-    this.state = {
-      providers: [],
-      activeProviderId: '',
-      isLoading: true,
-      isError: false,
-    };
+  static propTypes = {
+    providersStore: PropTypes.object.isRequired,
+    uiStore: PropTypes.object.isRequired,
   }
 
-  fetchProviders = async () => {
-    try {
-      const response = await request.get(`/api/providers`);
+  constructor(props) {
+    super(props);
+    this.providersStore = this.props.providersStore;
+    this.uiStore = this.props.uiStore;
 
-      this.setState({
-        providers: response[0].providers,
-        isLoading: false,
-      });
-
-    } catch (error) {
-      this.setState({
-        isLoading: false,
-        isError: true,
-      });
-    }
-  };
-
-  componentDidMount() {
-    this.fetchProviders();
+    this.providersStore.fetchProviders();
   }
-
-  handleListItemClick = (providerId) => {
-    console.log('selected provider', providerId);
-
-    this.setState({
-      activeProviderId: providerId,
-    });
-  };
 
   render() {
 
-    if (this.state.isLoading) {
+    if (this.uiStore.isLoading) {
       return <div>Loading...</div>;
     }
 
@@ -58,19 +33,9 @@ class Providers extends Component {
 
         <h1>Providers</h1>
 
-        <GoogleMapReact
-          className={'Providers-map'}
-          providers={this.state.providers}
-          activeProviderId={this.state.activeProviderId}
-          onClick={this.handleListItemClick}
-        />
+        <GoogleMapReact className={'Providers-map'}/>
 
-        <ProvidersList
-          className={'Providers-list'}
-          providers={this.state.providers}
-          activeProviderId={this.state.activeProviderId}
-          onClick={this.handleListItemClick}
-        />
+        <ProvidersList className={'Providers-list'}/>
 
       </div>
     );

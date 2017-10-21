@@ -1,9 +1,13 @@
+import './ProvidersList.css';
+
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+import {inject, observer} from 'mobx-react';
 
-import './ProvidersList.css';
 import ProvidersItem from './ProvidersItem';
 
+@inject('providersStore')
+@observer
 class ProvidersList extends Component {
 
   static defaultProps = {
@@ -12,22 +16,20 @@ class ProvidersList extends Component {
 
   static propTypes = {
     className: PropTypes.string,
-    providers: PropTypes.array.isRequired,
-    activeProviderId: PropTypes.string,
-    onClick: PropTypes.func,
+    providersStore: PropTypes.object.isRequired,
   };
 
   render() {
+    const {providers} = this.props.providersStore;
+
     return (
       <div className={this.props.className}>
         {
-          this.props.providers.map(provider =>
+          providers.map(provider =>
             <ProvidersItem
               className="Providers-listItem"
-              isActive={this.props.activeProviderId === provider.id}
               key={provider.id}
               provider={provider}
-              onClick={this.props.onClick}
             />)
         }
       </div>

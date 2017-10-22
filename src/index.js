@@ -8,7 +8,6 @@ import {Provider} from 'mobx-react';
 import registerServiceWorker from './registerServiceWorker';
 import {providersStore, uiStore} from './stores';
 
-
 const stores = {
   providersStore,
   uiStore,

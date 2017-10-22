@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Providers from './Providers';
+import Providers from './components/Providers';
 
 
 class App extends Component {

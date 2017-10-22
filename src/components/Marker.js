@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import PinIcon from './Pin';
+import PinIcon from './PinIcon';
 
 
 export default class Marker extends Component {
@@ -24,8 +24,10 @@ export default class Marker extends Component {
           <div className="ProviderMap-wrapper">
 
             <div className="ProviderMap-imageWrapper">
-              <img alt={provider.name} className="ProviderMap-image"
-                   src={provider.photoUrl}/>
+              <img
+                alt={provider.name}
+                className="ProviderMap-image"
+                src={provider.photoUrl}/>
             </div>
             <h3 className="ProviderMap-name">
               <a href={`/providers/${provider.id}`}>{provider.name}</a>

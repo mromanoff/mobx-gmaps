@@ -4,7 +4,7 @@ import {inject, observer} from 'mobx-react';
 import {action, observable, reaction} from 'mobx';
 import GoogleMap from 'google-map-react';
 
-import {MAP} from './constants';
+import {MAP} from '../constants/index';
 import Marker from './Marker';
 
 const K_SIZE = 22;

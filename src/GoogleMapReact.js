@@ -7,9 +7,9 @@ import GoogleMap from 'google-map-react';
 import {MAP} from './constants';
 import PinIcon from './Pin';
 
-//const K_SIZE = 22;
+const K_SIZE = 22;
 
-const K_SIZE = 40;
+//const K_SIZE = 40;
 
 
 class Marker extends Component {
@@ -56,7 +56,7 @@ export default class GMap extends Component {
 
   static propTypes = {
     className: PropTypes.string,
-    providersStore: PropTypes.object.isRequired,
+    //providersStore: PropTypes.object.isRequired,
   };
 
   @observable center = [40.7977734292, -73.9675693365];

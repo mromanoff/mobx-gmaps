@@ -6,7 +6,16 @@ import {useStrict} from 'mobx';
 import {Provider} from 'mobx-react';
 
 import registerServiceWorker from './registerServiceWorker';
-import * as stores from './stores';
+import {providersStore, uiStore} from './stores';
+
+
+const stores = {
+  providersStore,
+  uiStore
+}
+
+// For easier debugging
+window.__APP_STATE__ = stores;
 
 useStrict(true);
 

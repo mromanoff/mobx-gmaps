@@ -1,5 +1,5 @@
-import providersStore from './ProvidersStore';
-import uiStore from './UIStore';
+import providersStore from './providersStore';
+import uiStore from './uiStore';
 
 export {
   providersStore,

@@ -1,6 +1,6 @@
 import {action, observable} from 'mobx';
 
-import uiStore from './UIStore';
+import uiStore from './uiStore';
 import ProviderModel from '../models/ProviderModel';
 import request from '../middleware/request';
 
@@ -17,7 +17,6 @@ class ProvidersStore {
 
   constructor(uiStore) {
     this.uiStore = uiStore;
-    window.providersStore = this;
   }
 
   // getCurrentProviderIndex() {
@@ -132,11 +131,5 @@ class ProvidersStore {
   };
 }
 
-const providersStore = new ProvidersStore(uiStore);
+export default new ProvidersStore(uiStore);
 
-/**
- * Export initialized store as default export,
- * and store class as named export.
- */
-export default providersStore;
-export {ProvidersStore};

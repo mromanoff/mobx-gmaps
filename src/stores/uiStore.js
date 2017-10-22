@@ -9,8 +9,6 @@ class UIStore {
   @observable message = null;
 
   constructor() {
-    window.uiStore = this;
-
     autorun(() => {
       //console.log(this.requestCount);
     });
@@ -66,9 +64,4 @@ class UIStore {
   };
 }
 
-const uiStore = new UIStore();
-
-/**
- * Export initialized store as default export,
- */
-export default uiStore;
+export default new UIStore();

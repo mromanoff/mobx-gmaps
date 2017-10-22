@@ -6,7 +6,7 @@
  * @param {string} key - Retrieve the value of this key.
  * @return {any} Stored key value or undefined if it doesn't exist.
  */
-export const getItem = (key: string): ?Object => {
+const getItem = (key: string): ?Object => {
   const item: any = window.localStorage.getItem(key);
 
   if (item === null) {
@@ -24,6 +24,13 @@ export const getItem = (key: string): ?Object => {
  * @param {string} key - Assign value to this key.
  * @param {string|number|array|object} value - Value to be stored.
  */
-export const setItem = (key: string, value: Object): void => {
+const setItem = (key: string, value: Object): void => {
   window.localStorage.setItem(key, JSON.stringify(value));
 };
+
+const sessionStorage = {
+  setItem,
+  getItem,
+};
+
+export default sessionStorage;

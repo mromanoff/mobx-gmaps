@@ -25,12 +25,13 @@ class ProvidersList extends Component {
     return (
       <div className={this.props.className}>
         {
-          providers.map(provider =>
+          providers.map(provider => (
             <ProvidersItem
               className="Providers-listItem"
               key={provider.id}
               provider={provider}
-            />)
+            />),
+          )
         }
       </div>
     );

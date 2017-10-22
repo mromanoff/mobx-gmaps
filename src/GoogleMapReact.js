@@ -5,46 +5,10 @@ import {action, observable, reaction} from 'mobx';
 import GoogleMap from 'google-map-react';
 
 import {MAP} from './constants';
-import PinIcon from './Pin';
+import Marker from './Marker';
 
 const K_SIZE = 22;
 
-//const K_SIZE = 40;
-
-
-class Marker extends Component {
-  static propTypes = {
-    // GoogleMap pass $hover props to hovered components
-    $hover: PropTypes.bool,
-    provider: PropTypes.object,
-  };
-
-  render() {
-    const className = this.props.$hover ? 'Icon-pin--hover' : 'Icon-pin';
-    const {provider} = this.props;
-
-    return (
-      <div>
-        <PinIcon
-          className={`Icon ${className}  ${this.props.isActive ? 'is-active' : '' }`}
-        />
-        <div className={`ProviderMap-infoWindow ${this.props.isActive ? 'is-active' : '' }`}>
-          <div className="ProviderMap-wrapper">
-
-            <div className="ProviderMap-imageWrapper">
-              <img alt={provider.name} className="ProviderMap-image"
-                   src={provider.photoUrl}/>
-            </div>
-            <h3 className="ProviderMap-name">
-              <a href={`/providers/${provider.id}`}>{provider.name}</a>
-            </h3>
-            <h4 className="ProviderMap-address">{provider.addresses[0].address}</h4>
-          </div>
-        </div>
-      </div>
-    );
-  }
-}
 
 @inject('providersStore')
 @observer
@@ -56,11 +20,9 @@ export default class GMap extends Component {
 
   static propTypes = {
     className: PropTypes.string,
-    //providersStore: PropTypes.object.isRequired,
+    providersStore: PropTypes.object.isRequired,
+    hoverKey: PropTypes.number,
   };
-
-  @observable center = [40.7977734292, -73.9675693365];
-  @observable zoom = 12;
 
   constructor(props) {
     super(props);
@@ -73,6 +35,9 @@ export default class GMap extends Component {
       },
     );
   }
+
+  @observable center = [40.7977734292, -73.9675693365];
+  @observable zoom = 12;
 
   @action
   recenterMap = (lat, lng) => {
@@ -112,15 +77,16 @@ export default class GMap extends Component {
   render() {
     const {providers, provider} = this.props.providersStore;
 
-    const markers = providers.map(marker =>
-      <Marker
-        key={marker.id}
-        lat={marker.addresses[0].lat}
-        lng={marker.addresses[0].lng}
-        isActive={provider.id === marker.id}
-        hover={this.props.hoverKey === marker.id}
-        provider={marker}
-      />,
+    const markers = providers.map(marker => (
+        <Marker
+          key={marker.id}
+          lat={marker.addresses[0].lat}
+          lng={marker.addresses[0].lng}
+          isActive={provider.id === marker.id}
+          hover={this.props.hoverKey === marker.id}
+          provider={marker}
+        />
+      ),
     );
 
     return (

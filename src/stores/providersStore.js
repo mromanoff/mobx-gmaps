@@ -73,6 +73,7 @@ class ProvidersStore {
 
     } catch (error) {
       //this.isError = true;
+      // eslint-disable-next-line no-console
       console.log('Error', error);
       this.uiStore.afterFetch();
     }

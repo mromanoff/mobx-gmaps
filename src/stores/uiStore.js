@@ -10,7 +10,8 @@ class UIStore {
 
   constructor() {
     autorun(() => {
-      //console.log(this.requestCount);
+      // eslint-disable-next-line no-console
+      console.log(this.requestCount);
     });
   }
 

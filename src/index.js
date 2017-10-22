@@ -11,8 +11,8 @@ import {providersStore, uiStore} from './stores';
 
 const stores = {
   providersStore,
-  uiStore
-}
+  uiStore,
+};
 
 // For easier debugging
 window.__APP_STATE__ = stores;

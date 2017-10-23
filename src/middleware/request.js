@@ -106,8 +106,6 @@ export const API = {
     }
     return body;
   },
-
-
 };
 
 export default API;

@@ -4,7 +4,7 @@ const PIN_ICON = 'M11.02.514c-3.977 0-6.87 3.277-6.87 6.87 0 2.155.762 3.338 1.7
 const MAP = {
 
   SETTINGS: {
-    apiKey: 'AIzaSyA9u-JG55g-KRMJjLWX94gOP7EAeUQazq4',
+    key: 'AIzaSyA9u-JG55g-KRMJjLWX94gOP7EAeUQazq4',
     libraries: ['places'],
     version: '3.29',
     visible: false,
